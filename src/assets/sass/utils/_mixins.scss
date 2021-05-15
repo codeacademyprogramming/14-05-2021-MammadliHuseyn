@@ -1,0 +1,19 @@
+@mixin button-theme($btn-color) {
+    background: $btn-color;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+@mixin button-theme-circle($btn-color) {
+    background: $btn-color;
+    padding: 12px;
+    border-radius: 100%;
+}
+
+@mixin font-sizes($min, $max) {
+    @for $i from $min through $max {
+        .f-#{$i}00 {
+            font-weight: #{$i}#{0}#{0};
+        }
+    }
+}

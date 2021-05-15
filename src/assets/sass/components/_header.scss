@@ -1,0 +1,17 @@
+header {
+    .col-4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    li {
+        margin-right: 30px;
+    }
+    .nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 3%;
+    }
+    background: transparent;
+}

@@ -1,4 +1,2 @@
-import { a } from "./app/app";
+import "./app/app";
 import './assets/style.scss';
-
-a();

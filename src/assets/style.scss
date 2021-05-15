@@ -1,4 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
-body {
-    background-color: yellow;
-}
+@import "./sass/utils/_index.scss";
+@import "./sass/base/_index.scss";
+@import "./sass/components/_index.scss";

@@ -1,0 +1,17 @@
+.btn{
+    display:inline-block;
+    text-align: center;
+    cursor:pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    border:none;
+}
+
+/*Buttons with theme*/
+.btn-primary {
+    @include button-theme($btn-bg-color);
+}
+
+.btn-primary-circle {
+    @include button-theme-circle($btn-bg-color);
+}

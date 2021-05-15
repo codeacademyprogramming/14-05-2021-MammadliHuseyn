@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/codeacademyprogramming/14-05-2021-MammadliHuseyn#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^5.0.1",
     "webpack-cli": "^4.7.0"
   },

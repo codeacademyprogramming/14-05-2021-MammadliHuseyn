@@ -1,0 +1,53 @@
+#dishes {
+    position: relative;
+    .pizza-card {
+        position: relative;
+        height: 100%;
+        padding: 5%;
+        border: 2px solid $border-color;
+        border-radius: 15px;
+        .price {
+            color: $secondary-color;
+            font-size: 24px;
+        }
+        .card-add {
+            background-color: $text-color;
+            padding: 5px 15px 15px 15px;
+            border-radius: 100%;
+            position: absolute;
+            left: 35%;
+            top: 90%;
+            border-bottom: 2px solid $border-color;
+
+            .wrapper {
+                padding: 15px 20px;
+                border: 2px solid $border-color;
+                position: relative;
+                border-radius: 50%;
+                top: 10px;
+                transition: all 0.5s;
+                cursor: pointer;
+                i {
+                    background: $btn-bg-color;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                &:hover {
+                    background: $btn-bg-color;
+                    i {
+                        color: $text-color;
+                        -webkit-text-fill-color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+    h2 {
+        font-size: 48px;
+    }
+    #pizzas{
+        .col-3{
+            margin-bottom:2rem;
+        }
+    }
+}
