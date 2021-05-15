@@ -1,0 +1,38 @@
+{
+  "name": "webpack-huseynmle",
+  "version": "1.0.0",
+  "description": "Table of Contents :",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack serve --config webpack.prod.js --open",
+    "start": "webpack serve --config webpack.dev.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeacademyprogramming/14-05-2021-MammadliHuseyn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeacademyprogramming/14-05-2021-MammadliHuseyn/issues"
+  },
+  "homepage": "https://github.com/codeacademyprogramming/14-05-2021-MammadliHuseyn#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
